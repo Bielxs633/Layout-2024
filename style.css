@@ -16,18 +16,37 @@ ul, ol, li{
 
 
 body{
+    
     height: 100vh;
     display: flex;
     flex-direction: column;
+    padding-inline: 80px;
 }
 header{
+
     height: 200px;
     background-color: blue;
+    display: flex;
+    justify-content: space-between;
 }
+
+.logo{
+    height: 80px;
+    width: 80px;
+    background-color: black;
+}
+
+.menu ul{
+    display: flex;
+    gap: 32px;
+    font-size: 32px;
+}
+
 main{
     flex-grow: 1;
     background-color: red;
 }
+
 footer{
     height: 100px;
     background-color: purple;

@@ -1,3 +1,5 @@
+/* RESET */
+
 *{
     margin: 0;
     padding: 0;
@@ -13,27 +15,26 @@ ul, ol, li{
     list-style: none;
 }
 
-
+/* FIM RESET */
 
 body{
-
     height: 100vh;
     display: flex;
     flex-direction: column;
     padding-inline: 80px;
 }
-header{
 
+header{
     height: 200px;
-    background-color: blue;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
     height: 80px;
     width: 80px;
-    background-color: black;
+    background-color: blue;
 }
 
 .menu ul{
@@ -44,20 +45,52 @@ header{
 
 main{
     flex-grow: 1;
-    background-color: red;
+    background-color: pink;
+    display: flex;
 }
 
 .conteudo{
     width: 50%;
-    background-color: green;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conteudo h1{
+    font-size: 80px;
+}
+
+.conteudo p{
+    font-size: 40px;
+}
+
+.conteudo button{
+    height: 64px;
+    width: 300px;
+    font-size: 32px;
+    background-color: black;
+    color: white;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social div{
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: orange;
 }
 
 .destaque{
     width: 50%;
-    background-color: aqua;
+    background-color: green;
 }
 
 footer{
     height: 100px;
-    background-color: purple;
+    background-color: yellow;
 }

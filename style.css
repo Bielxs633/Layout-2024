@@ -92,5 +92,8 @@ main{
 
 footer{
     height: 100px;
-    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: yellow;
 }

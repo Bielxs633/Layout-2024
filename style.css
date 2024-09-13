@@ -16,7 +16,7 @@ ul, ol, li{
 
 
 body{
-    
+
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -45,6 +45,16 @@ header{
 main{
     flex-grow: 1;
     background-color: red;
+}
+
+.conteudo{
+    width: 50%;
+    background-color: green;
+}
+
+.destaque{
+    width: 50%;
+    background-color: aqua;
 }
 
 footer{
